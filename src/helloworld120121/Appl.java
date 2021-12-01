@@ -14,7 +14,7 @@ public class Appl {
 	int age = Integer.parseInt(br.readLine());
 
 	System.out.println("Hi " + name);  
-	System.out.println("Your age is" + age);
+	System.out.println("Your age is " + age);
 	  }
 
 }
