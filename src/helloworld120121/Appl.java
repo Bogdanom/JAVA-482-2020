@@ -13,7 +13,7 @@ public class Appl {
 	System.out.println("Tel me, how old are you?");
 	int age = Integer.parseInt(br.readLine());
 
-	System.out.println("Hi " + name);  
+	System.out.println("Hi, " + name);  
 	System.out.println("Your age is " + age);
 	  }
 
