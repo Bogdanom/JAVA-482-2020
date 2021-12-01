@@ -8,9 +8,9 @@ public class Appl {
 	public static void main(String[] args) throws IOException {
 	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-	System.out.println("Hello. What is your name?");
+	System.out.println("What is your name?");
 	String name = br.readLine();
-	System.out.println("How old are you?");
+	System.out.println("Tel me, how old are you?");
 	int age = Integer.parseInt(br.readLine());
 
 	System.out.println("Hello " + name);  
