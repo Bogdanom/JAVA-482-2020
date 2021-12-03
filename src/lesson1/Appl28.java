@@ -15,6 +15,8 @@ public class Appl28 {
 
 	System.out.println("Hi, " + name);  
 	System.out.println("Your age is " + age);
+	
+	br.close();
 	  }
 
 }
