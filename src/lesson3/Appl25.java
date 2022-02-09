@@ -34,7 +34,12 @@ public class Appl25 {
 		System.out.print(" Salary = "+employee3.getSalary());
 		System.out.println(" Bonus = "+employee3.getBonus());
 		
-
+		sum=0;
+		sum=employee1.getSalary()+employee2.getSalary()+employee3.getSalary();
+		System.out.println();
+		System.out.printf("Salary of all employees = "+ "%.2f",sum);
+		
+		
 	}
 
 }
