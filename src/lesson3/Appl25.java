@@ -23,6 +23,11 @@ public class Appl25 {
 		System.out.println(" Bonus = "+employee3.getBonus());
 		System.out.println();
 		
+		double sum=employee1.getSalary()+employee2.getSalary()+employee3.getSalary();
+		System.out.printf("Salary of all employees = "+ "%.2f",sum);
+		System.out.println();
+		System.out.println();
+		
 		employee3.changeRate(7);
 		System.out.println("Updated info");
 		System.out.print(employee3);
