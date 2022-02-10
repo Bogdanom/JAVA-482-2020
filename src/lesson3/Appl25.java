@@ -11,7 +11,7 @@ public class Appl25 {
 		employee3.setRate(5);
 		employee3.setHours(120);
 		
-		System.out.println("Out employees");
+		System.out.println("Our employees");
 		System.out.print(employee1);
 		System.out.print(" Salary = "+employee1.getSalary());
 		System.out.println(" Bonus = "+employee1.getBonus());
