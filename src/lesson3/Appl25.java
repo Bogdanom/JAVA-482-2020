@@ -29,7 +29,7 @@ public class Appl25 {
 		System.out.println();
 		
 		employee3.changeRate(7);
-		System.out.println("Updated info");
+		System.out.println("Updated info after changeRate");
 		System.out.print(employee3);
 		System.out.print(" Salary = "+employee3.getSalary());
 		System.out.println(" Bonus = "+employee3.getBonus());
