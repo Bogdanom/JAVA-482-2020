@@ -19,7 +19,6 @@ public class Appl_train {
 		  } 
 		  catch (NumberFormatException e) {
 				System.err.println("m1() non-format input");
-				e.printStackTrace();
 		  }	catch (ArrayIndexOutOfBoundsException e) {
 					System.err.println("m1() out of array");
 					//System.exit(0);
