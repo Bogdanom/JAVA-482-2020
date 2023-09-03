@@ -10,7 +10,7 @@ public class Appl {
 		//b.m1(); //from B, m1 public
 				
 		A b = new B();
-		//System.out.println("b.getK() = " + b.getK()); // b.getK() from A, public getK()
+		System.out.println("b.getK() = " + b.getK()); // b.getK() from A, public getK()
 		
 		b.m1(); //from B, m1 public
 		//b.m2();//from A, but angry, m2 static

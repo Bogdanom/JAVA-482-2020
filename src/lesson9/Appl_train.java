@@ -27,7 +27,7 @@ public class Appl_train {
 				System.err.println("/0 non-valid operation");
 				e.printStackTrace();
 			} catch (Exception e) {
-				System.err.println("main() go wrong");
+				System.err.println("m1() go wrong");
 				e.printStackTrace();
 			}
 	  finally {
@@ -42,7 +42,7 @@ public class Appl_train {
 		Appl_train a= new Appl_train();	
 		try {
 			int k = Integer.parseInt(br.readLine());
-			System.out.println("main() done. m1()= "+a.m1(k));
+			System.out.println("main() m1()= "+a.m1(k));
 		} catch (NumberFormatException e) {
 			System.err.println("main() non-format input");
 			e.printStackTrace();

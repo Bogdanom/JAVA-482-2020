@@ -26,12 +26,13 @@ public class ListArrayAppl {
 //		String str = list.get(2) + list.get(3);
 //		System.out.println(str);
 
+		/*-
 		Iterator<String> iterator = list.iterator();
 		while(iterator.hasNext()) {
 			String element = iterator.next();
 			System.out.print(element+" ");
 		}
-		/*-
+		*/
 		Iterator<String> iterator = list.iterator();
 		while(iterator.hasNext()) {
 			String element = iterator.next();
@@ -42,7 +43,7 @@ public class ListArrayAppl {
 			}
 		}
 		System.out.println("\nlist = " + list);
-		*/
+		
 	}
 
 }
