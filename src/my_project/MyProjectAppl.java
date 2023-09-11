@@ -1,3 +1,5 @@
+// TODO REFACTOR - a lot of redundant info 09 Sep 23
+
 package my_project;
 
 import java.io.BufferedReader;

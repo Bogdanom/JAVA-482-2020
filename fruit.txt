@@ -3,3 +3,5 @@ apple red
 banana yellow
 cherry red
 lemon yellow
+pearch orange
+pear green

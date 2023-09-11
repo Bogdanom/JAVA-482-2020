@@ -18,7 +18,7 @@ class InvalidParameterException extends RuntimeException {
 }
 }
 public class PT1Appl {
-	private final String EXCEPTION_MESSAGE="Invalid Parametr(s): a= %d, b = %d ";
+	private final String EXCEPTION_MESSAGE="Invalid Parametr(s): a = %d, b = %d ";
 
 	public static void main(String[] args) {
 		PT1Appl p =new PT1Appl();
@@ -39,7 +39,7 @@ public class PT1Appl {
 			System.out.print("LOG: Exception found, e:\n"+e);
 		}
 
-	System.out.print("result = "+result);
+	System.out.print("\nresult = "+result);
 	}
 	public int squareRectangle(int a, int b) {
 		int result = 0;

@@ -8,7 +8,7 @@ public class ReadBiteFromFileAppl {
 		
 		//slide 36, read characters from the file to the array	
 		byte[] r = new byte[10];
-		String fileName = "Print_file_022222_1.txt";
+		String fileName = "Print_file_1.txt";
 		FileInputStream inFile;
 		try {
 			inFile = new FileInputStream(fileName);

@@ -9,7 +9,7 @@ public class PrintBiteToFileAppl {
 //slide 35, write characters from the array to the file		
 		byte[] w = { 48, 49, 50};
 //		byte[] w = { -64, 1, 64};
-		String fileName = "Print_file_022222_1.txt";
+		String fileName = "Print_file_1.txt";
 		FileOutputStream outFile;
 		try {
 			outFile = new FileOutputStream(fileName);

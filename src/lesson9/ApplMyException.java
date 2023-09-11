@@ -18,7 +18,8 @@ public class ApplMyException {
 	}
 	public static void main(String[] args) throws MyException15  {
 		try {
-			doSomthing(-5); // try / catch block is required
+			//doSomthing(5); // a = 20
+			doSomthing(-5); // exception
 		} catch (MyException15 e1) {
 			System.err.print(e1);
 			//e1.printStackTrace();

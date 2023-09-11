@@ -9,7 +9,7 @@ public class ReadFromFilePT3Appl {
 
 	public static void main(String[] args) {
 		int count = 0;
-		String fileName = "mytext-022322.txt";
+		String fileName = "mytext-1.txt";
 		System.out.println("Read data from file: " + fileName);
 		List<String> list = new ArrayList<>();
 		String s = "";
@@ -22,7 +22,7 @@ public class ReadFromFilePT3Appl {
 		} catch (Exception e) {
 			System.out.println("ERROR!");
 		}
-		System.out.println("row = " + count);
+		System.out.println("File contains " + count + " rows");
 		//
 		String max = list.get(0);
 		String min = list.get(0);
@@ -36,10 +36,10 @@ public class ReadFromFilePT3Appl {
 				min = current;
 			}
 		}
-		System.out.println("max = " + max + " len = " + max.length());
-		System.out.println("min = " + min + " len = " + min.length());
+		System.out.println("max line is - " + max + " - Its length is " + max.length() + " symbols");
+		System.out.println("min line is - " + min + " - Its length is " + min.length() + " symbols");
 		//
-		System.out.println("Lines contains: yellow");
+		System.out.println("Lines contains: yellow are");
 		for (String current : list) {
 			if (current.contains("yellow")) {
 				System.out.println(current);

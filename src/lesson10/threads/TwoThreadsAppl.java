@@ -1,4 +1,4 @@
-package lesson10;
+package lesson10.threads;
 
 class Run1p implements Runnable {
 	public void run() {
@@ -49,7 +49,7 @@ class Run1m implements Runnable {
 			TwoThreadsAppl.sum = k - 1;
 			System.out.print("-");
 			
-			/*
+			/*-
 			synchronized (TwoThreadsAppl.monitor) {
 				k = TwoThreadsAppl.sum;
 				try {
@@ -60,7 +60,8 @@ class Run1m implements Runnable {
 				TwoThreadsAppl.sum = k - 1;
 				System.out.print("-");
 				
-			}	*/
+			}	
+			*/
 		}
 		System.out.println("DONE-, sum = " + TwoThreadsAppl.sum);
 	}

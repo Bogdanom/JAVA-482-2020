@@ -30,10 +30,10 @@ public class Appl_Serialization {
 	public static void main(String[] args) {
 		// binnary serialization 
 		/**/
-		Student student = new Student(5, "Seniv", "qwet33");
+		Student student = new Student(4, "Denim", "qwet44");
 		System.out.println(student);
 		// save object in file
-		File fw = new File("demo-022322.cer");
+		File fw = new File("demo-1.cer");
 		try {
 		ObjectOutputStream ostream = 
 			new ObjectOutputStream(new FileOutputStream(fw));
@@ -44,7 +44,7 @@ public class Appl_Serialization {
 		// binnary de-serialization 
 		//	Student.bachelor = "Mathematic";
 		
-			File fr = new File("demo-022322.cer");
+			File fr = new File("demo-1.cer");
 			try {
 			ObjectInputStream istream = new ObjectInputStream(new FileInputStream(fr));
 			Student unknown = (Student) istream.readObject();
