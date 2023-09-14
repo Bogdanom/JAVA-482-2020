@@ -33,8 +33,8 @@ public abstract class Employee implements Empl_payments, Comparable<Employee> {
 		public int compareTo(Employee employee) {
 			double o1=calculatePay();
 			double o2=employee.calculatePay();
-			//return o1<o2?-1:o1>o2?1:0; //ascending salary
-			return o1<o2?1:o1>o2?-1:0; //descending salary
+			return o1<o2?-1:o1>o2?1:0; //ascending salary
+//			return o1<o2?1:o1>o2?-1:0; //descending salary
 		}
 		
 	}
